@@ -262,4 +262,4 @@ function createEntry(entry) {
 
 // main = app
 module.exports = () => [createEntry('main')]
-module.exports.createEntry = createEntry
+module.exports.createEntry = createEntry;

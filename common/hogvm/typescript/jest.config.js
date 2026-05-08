@@ -7,4 +7,4 @@ module.exports = {
     coverageProvider: 'v8',
     testMatch: ['<rootDir>/**/*.test.ts'],
     testTimeout: 60000,
-}
+};

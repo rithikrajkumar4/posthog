@@ -4,4 +4,4 @@ const UIExtensionsConfig = require('@stripe/ui-extension-tools/jest.config.ui-ex
 
 module.exports = {
     ...UIExtensionsConfig,
-}
+};

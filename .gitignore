@@ -79,7 +79,6 @@ yalc.lock
 
 # Local VSCode config should be ignored
 # but make sure we commit examples and the shared `launch.json` file
-.vscode/*
 !.vscode/launch.json
 !.vscode/settings.example.json
 !.vscode/extensions.json
@@ -181,7 +180,6 @@ data/seaweedfs
 data/seaweedfs/
 
 # No env files except for the example
-.env*
 !.env.example
 
 # Ignore Agent OS (Claude Code) files
@@ -203,3 +201,7 @@ junit.xml
 # Downloaded GitHub issues for signals
 products/signals/backend/github_issues/
 .pnpm-store
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
